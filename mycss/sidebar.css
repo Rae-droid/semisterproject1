@@ -1,0 +1,68 @@
+body{
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: rgb(32, 31, 31);
+}
+
+.sidebar {
+  height: auto;
+  width: 0;
+  position: fixed;
+  top: 0;
+  left: 950px;
+  background-color: #2e2e2e;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  border-radius: 10px ;
+}
+
+.sidebar a {
+  padding: 10px 15px;
+  text-decoration: none;
+  font-size: 18px;
+  color: rgb(226, 64, 91);
+  display: block;
+  transition: 0.3s;
+  width: auto;
+}
+
+.sidebar a:hover {
+  background-color: rgb(226, 64, 91);
+  color: #2e2b2b;
+}
+
+.sidebar .closebtn {
+  position: absolute;
+  top: 10px;
+  left: -50px;
+  font-size: 25px;
+  margin-left: 50px;
+  width: auto;
+}
+
+#main {
+
+  /* padding: 16px; */
+}
+
+.openbtn {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: rgb(53, 45, 46);
+  color: rgb(226, 64, 91);
+  border: none;
+  padding: 10px 15px;
+  position: absolute;
+  left: 965px;
+  bottom: 460px;
+}
+
+.openbtn:hover {
+  background-color: rgb(226, 64, 91);
+  color: #2e2b2b ;
+  #main{
+    opacity: 0.3;
+  }
+}
