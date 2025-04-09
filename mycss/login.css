@@ -7,7 +7,7 @@
     
 }
 body{
-  background-color: #000000;
+  background-color:  rgb(53, 45, 46);
 }
 *{
     margin: 0;
@@ -71,9 +71,15 @@ color: rgb(110, 102, 102);
     text-decoration: none;
 }
 .bg-help{
-    height: 350px;
+    height: 250px;
     border-bottom: 3px solid rgb(216, 80, 103);
-    position: relative;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    opacity: 0.8; 
 }
 /* .bg-paid{
     height: 350px;
@@ -100,6 +106,7 @@ color: rgb(110, 102, 102);
     color: white;
 }
 .right-side{
+
     line-height: 1.5;
     font-size: 20px;
     color: white;
@@ -165,9 +172,28 @@ color: rgb(110, 102, 102);
     padding: 20px;
     width: 160px;
 }
+.sign_content button a{
+  color: white;
+  text-decoration: none;
+
+}
+.bg-pay{
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  filter: blur(5px);
+  opacity: 0.2;
+}
+
+
 .set{
- height: 300px;
- width: 300px;
+ height: 250px;
+ width: 250px;
  margin-left: 30px;
  position:relative;
  margin: 40px;
@@ -188,8 +214,17 @@ color: rgb(110, 102, 102);
     margin-left: 20px;
 }
  .bg-im{
-    opacity: 0.2;
-    position: fixed;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  filter: blur(5px);
+  opacity: 0.2;
+  
  }
  .set :hover{
     transform: scale(1.1);

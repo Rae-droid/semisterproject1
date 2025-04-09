@@ -5,9 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Clickable Sidebar</title>
   <script src="https://kit.fontawesome.com/016329d9ea.js" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="mycss/sidebar.css">
   <link rel="stylesheet" href="mycss/index.css">
-  <link rel="stylesheet" href="mycss/nav.css">
   <link rel="stylesheet" href="mycss/login.css">
   <link rel="stylesheet" href="mycss/sidebar.css">
 </head>
@@ -15,17 +13,20 @@
   
   <div id="sidebar" class="sidebar">
     <a href="javascript:void(0)" class="closebtn" onclick="closeSidebar()">&times;</a>
-    <a href="#"><i class="fa-solid fa-house"></i> Home</a>
+    <a href="index.html"><i class="fa-solid fa-house"></i> Home</a>
     <a href="#"><i class="fa-solid fa-chart-line"></i> Darshboard</a>
     <a href="#"><i class="fa-solid fa-download"></i> Downloads</a>
-    <a href="#"> <i class="fa-solid fa-address-card"></i> About</a>
-    <a href="#"><i class="fa-regular fa-user"></i> Accounts</a>
+    <a href="help.html"> <i class="fa-solid fa-address-card"></i> About</a>
+    <a href="login.html"><i class="fa-regular fa-user"></i> Accounts</a>
     <a href="#"><i class="fa-solid fa-server"></i> Services</a>
-    <a href="#"><i class="fa-solid fa-address-book"></i> Contact</a>
-    <a href="#"><i class="fa-solid fa-gears"></i> Settings</a>
+    <a href="help.html"><i class="fa-solid fa-address-book"></i> Contact</a>
+    <a href="paid.html"><i class="fa-solid fa-credit-card"></i> Plan</a>
+    <a href="tv.html"><i class="fa-solid fa-tv"></i> Tv Shows</a>
+    <a href="new.html"><i class="fa-solid fa-envelope"></i> New Release</a>
+    
   </div>
   
-    <button id="openbtn" class="openbtn" onmouseover="openSidebar()">☰</button>
+    <button id="openbtn" class="openbtn" onclick="openSidebar()">☰</button>
 
 
   <div class="header">
@@ -38,9 +39,7 @@
   </div>
     <div class="signin-icon">
     <a href="login.html"><i class="fa-solid fa-right-to-bracket icon-style" onclick="login()"></i></a>
-    <div class="login-popup">
-      <iframe src="login.html" frameborder="0"></iframe>
-    </div>
+ 
       </div>
   
       
@@ -219,6 +218,7 @@
 
   </div>
 
+  
 
   <script src="myjs/sidebar.js"></script>
 </body>
