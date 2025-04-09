@@ -13,5 +13,5 @@ jobs:
       with:
         server: ftpupload.net
         username: if0_38708309
-        password: ${{ secrets.FTP_FLIXGO_PASSWORD }}
+        password: ${{ secrets.ftp_flixgo_password }}
         server-dir: htdocs/
