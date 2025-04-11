@@ -71,8 +71,9 @@ body{
     scrollbar-color: rgb(226, 64, 91) rgb(53, 45, 46);
     scrollbar-width: thin;
     justify-content: center;
-    margin-left: 60px;
+    /* margin-left: 60px; */
     border-radius: 5px;
+    /* margin: 50px; */
     
 }
 .small-box{
@@ -98,6 +99,7 @@ body{
 .content{
     display: flex;
     /* flex-direction: row; */
+    justify-content: space-around;
 }
 .follow{
     display: flex;
