@@ -6,7 +6,7 @@ body{
 }
 
 .sidebar {
-  height: 420px;
+  height: auto;
   width: 0;
   position: fixed;
   top: 0;
