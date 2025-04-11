@@ -44,6 +44,8 @@ body{
 .signin-icon{
     margin-right: 40px;
     position: relative;
+    display: flex;
+    gap: 15px;
 }
 .bg-img{
     width: 100%;
