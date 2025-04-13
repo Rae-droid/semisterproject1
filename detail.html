@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Details</title>
+    <link rel="stylesheet" href="mycss/index.css">
+    <link rel="stylesheet" href="mycss/login.css">
+    <link rel="stylesheet" href="mycss/sidebar.css">
+    <script src="https://kit.fontawesome.com/016329d9ea.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="sidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeSidebar()">&times;</a>
+        <a href="index.html"><i class="fa-solid fa-house"></i> Home</a>
+        <a href="#"><i class="fa-solid fa-chart-line"></i> Darshboard</a>
+        <a href="#"><i class="fa-solid fa-download"></i> Downloads</a>
+        <a href="help.html"> <i class="fa-solid fa-address-card"></i> About</a>
+        <a href="login.html"><i class="fa-regular fa-user"></i> Accounts</a>
+        <a href="#"><i class="fa-solid fa-server"></i> Services</a>
+        <a href="help.html"><i class="fa-solid fa-address-book"></i> Contact</a>
+        <a href="paid.html"><i class="fa-solid fa-credit-card"></i> Plan</a>
+        <a href="tv.html"><i class="fa-solid fa-tv"></i> Tv Shows</a>
+        <a href="new.html"><i class="fa-solid fa-envelope"></i> New Release</a>
+        
+      </div>
+      
+       
+    
+    
+      <div class="header">
+        <div class="logo">
+          <a href="index.html"><img src="img/logo.svg" alt=""></a>
+        </div>
+        <div class="info">
+        <input type="text"   id="search" class="search"  placeholder="Search......">
+        <i class="fa-solid fa-magnifying-glass icon-style" onmouseover="search()"></i>
+      </div>
+        <div class="signin-icon">
+        <a href="login.html"><i class="fa-solid fa-right-to-bracket icon-style" onclick="login()"></i></a>
+        <button id="openbtn" class="openbtn" onclick="openSidebar()">☰</button>
+          </div>
+      
+          
+        
+      </div>
+      <div class="bg-detail">
+        <img src="img/home/home__bg3.jpg" alt="" height="100%" width="100%">
+      </div>
+<main>
+    <section class="movie-detail">
+        <div class="detail-img">
+            <img src="visuals/fire.jpg" alt="Movie Poster" class="movie-poster" height="100%" width="100%">
+        </div>
+        <div class="details">
+            <p><strong>Movie Title:</strong></p>
+            <p><strong>Release Date:</strong> January 1, 2023</p>
+            <p><strong>Genre:</strong> Action, Adventure</p>
+            <p><strong>Director:</strong> John Doe</p>
+            <p><strong>Cast:</strong> Jane Smith, John Smith, Alice Johnson</p>
+            <p><strong>Synopsis:</strong> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus lacinia odio vitae vestibulum vestibulum.</p>
+        </div>
+    </section>
+</main>
+   
+    <!-- <p style="text-align: center; color: rgb(112, 112, 112); font-family: Arial, sans-serif; font-size: 14px;">
+        &copy; 2025 MovieSite. All rights reserved.
+    </p> -->
+    <script src="myjs/sidebar.js"></script>
+</body>
+</html>
