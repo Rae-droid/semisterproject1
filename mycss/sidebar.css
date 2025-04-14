@@ -219,7 +219,7 @@ main{
   display: flex;
   justify-content: center;
   padding: 50px;
-  position: absolute;
+  /* position: relative; */
 }
 .movie-detail{
   display: flex;
@@ -235,8 +235,12 @@ main{
   color: rgb(226, 102, 123);
 }
 .bg-detail{
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -20;
   filter: blur(5px);
-  position: fixed;
+  opacity: 0.5;
   
 }
 .detail-img {
