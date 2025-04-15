@@ -255,3 +255,84 @@ border-radius: 10px;
   height: 100%;
   border-radius: 10px;
 }
+
+.navbar {
+  background-color: #1e1e2f;
+  color: white;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar h1 {
+  margin: 0;
+  font-size: 24px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+  color: #e2405f;
+}
+
+/* Dashboard Section */
+.dashboard {
+  padding: 40px;
+  text-align: center;
+}
+
+.dashboard h2 {
+  font-size: 28px;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 50px;
+}
+
+.card {
+  background: linear-gradient(135deg, #e2405f, #ff6b81);
+  color: white;
+  border-radius: 15px;
+  padding: 30px;
+  text-align: center;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 1);
+}
+
+.card i {
+  font-size: 50px;
+  margin-bottom: 15px;
+}
+
+.card h2 {
+  font-size: 22px;
+  margin: 10px 0;
+}
+
+.card p {
+  font-size: 18px;
+  margin: 0;
+}
+.bg-darshboard{
+  filter: blur(5px);
+  opacity: 0.3;
+ position: fixed;
+ z-index: -999;
+}

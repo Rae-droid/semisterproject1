@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="mycss/sidebar.css">
+    <link rel="stylesheet" href="mycss/login.css">
+    <link rel="stylesheet" href="mycss/index.css">
+   
+</head>
+<body>
+
+    <div id="sidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeSidebar()">&times;</a>
+        <a href="index.html"><i class="fa-solid fa-house"></i> Home</a>
+        <a href="#"><i class="fa-solid fa-chart-line"></i> Darshboard</a>
+        <a href="#"><i class="fa-solid fa-download"></i> Downloads</a>
+        <a href="help.html"> <i class="fa-solid fa-address-card"></i> About</a>
+        <a href="login.html"><i class="fa-regular fa-user"></i> Accounts</a>
+        <a href="#"><i class="fa-solid fa-server"></i> Services</a>
+        <a href="help.html"><i class="fa-solid fa-address-book"></i> Contact</a>
+        <a href="paid.html"><i class="fa-solid fa-credit-card"></i> Plan</a>
+        <a href="tv.html"><i class="fa-solid fa-tv"></i> Tv Shows</a>
+        <a href="new.html"><i class="fa-solid fa-envelope"></i> New Release</a>
+        
+      </div>
+      
+       
+    
+    
+      <div class="header">
+        <div class="logo">
+          <a href="index.html"><img src="img/logo.svg" alt=""></a>
+        </div>
+        <div class="info">
+        <input type="text"   id="search" class="search"  placeholder="Search......">
+        <i class="fa-solid fa-magnifying-glass icon-style" onmouseover="search()"></i>
+      </div>
+        <div class="signin-icon">
+        <a href="login.html"><i class="fa-solid fa-right-to-bracket icon-style" onclick="login()"></i></a>
+        <button id="openbtn" class="openbtn" onclick="openSidebar()">☰</button>
+          </div>
+      
+          
+        
+      </div>
+
+
+      <div class="bg-darshboard">
+        <img src="img/gallery/project-4.jpg" alt="" height="100%" width="100%">
+      </div>
+    <!-- Dashboard Section -->
+    <div class="dashboard">
+        <h2>Welcome to Your Dashboard</h2>
+        <div class="cards">
+            <div class="card">
+                <i class="fa-solid fa-film"></i>
+                <h2>Total Movies</h2>
+                <p>841</p>
+            </div>
+            <div class="card">
+                <i class="fa-solid fa-user"></i>
+                <h2>Active Users</h2>
+                <p>450</p>
+            </div>
+            <div class="card">
+                <i class="fa-solid fa-power-off"></i>
+                <h2>Offline Users</h2>
+                <p>932</p>
+            </div>
+            <div class="card">
+                <i class="fa-solid fa-download"></i>
+                <h2>Downloads</h2>
+                <p>660</p>
+            </div>
+            <div class="card">
+                <i class="fa-solid fa-credit-card"></i>
+                <h2>Subscriptions</h2>
+                <p>432</p>
+            </div>
+            <div class="card">
+                <i class="fa-solid fa-person"></i>
+                <h2>Accounts Created</h2>
+                <p>1,895</p>
+            </div>
+        </div>
+    </div>
+   <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
+    <footer>
+        <div class="footer-container">
+            <div class="footer-logo">
+                <a href="#"><img src="img/logo.svg" alt=""></a>
+                <p><i class="fa-solid fa-paper-plane"></i> chriscater523@gmail.com</p>
+                <br>
+                <p><i class="fa-solid fa-phone-volume"></i> +233552995515 or +233553457215</p>
+                <br>
+                <p><i class="fa-solid fa-location-crosshairs"></i> Suame-Maakro</p>
+            </div>
+            <div class="footer-info">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="new.html">CATALOG</a></li>
+                    <li><a href="paid.html">PRICING PLAN</a></li>
+                    <li><a href="help.html">HELP</a></li>
+                </ul>
+            </div>
+            <div class="footer-info">
+                <ul>
+                    <li><a href="help.html">ABOUT</a></li>
+                    <li><a href="trailer.html">TRAILERS</a></li>
+                    <li><a href="new.html">HD</a></li>
+                    <li><a href="index.html">FLIXGO</a></li>
+                </ul>
+            </div>
+            <div class="footer-info">
+                <ul>
+                    <li><a href="trailer.html">HIGH-QUALITY</a></li>
+                    <li><a href="paid.html">PAYMENT PLAN</a></li>
+                    <li><a href="tv.html">DOWNLOADS</a></li>
+                    <li><a href="new.html">MOVIE HUB</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-social">
+                <ul>
+                    <li><a href="https://www.facebook.com"><i class="fa-brands fa-facebook-f"></i></a></li>
+                    <li><a href="https://www.x.com"><i class="fa-brands fa-x-twitter"></i></a></li>
+                    <li><a href="https://www.instagram.com"><i class="fa-brands fa-square-instagram"></i></a></li>
+                    <li><a href="https://www.youtube.com"><i class="fa-brands fa-youtube"></i></a></li>
+                    <li><a href="https://www.whatsapp.com"><i class="fa-brands fa-whatsapp"></i></a></li>
+                    <li><a href="https://www.github.com"><i class="fa-brands fa-github"></i></a></li>
+                </ul>
+                <input type="text" placeholder="Enter your email">
+                <br>
+                <br>
+                <button>Subscribe</button>
+            </div>
+
+        </div>
+        <div class="down-icon">
+           <a href="#">
+            <img src="img/Download_on_the_App_Store_Badge.svg" alt="" height="100%" width="100%" class="apple">
+           </a>
+            <a href="#">
+                <img src="img/google-play-badge.png" alt="" height="100%" width="100%" class="google">
+            </a>
+            <p>Download Our App</p>
+        </div>
+        <!-- <hr class="line"> -->
+        
+         <div class="bottom">
+        <p>
+            &copy; 2025 MovieSite. All rights reserved.
+        </p>
+        <p><a href="#">Terms & Conditions</a></p>
+        <p><a href="#">Back to Top</a></p>
+       </div>
+    </footer>
+    <script src="myjs/sidebar.js"></script>
+   
+</body>
+</html>
