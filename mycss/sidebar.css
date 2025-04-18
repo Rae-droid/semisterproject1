@@ -2,7 +2,7 @@ body{
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: rgb(32, 31, 31);
+  background-color:  rgb(12, 11, 12);
 }
 
 .sidebar {
@@ -10,12 +10,13 @@ body{
   width: 0;
   position: fixed;
   top: 0;
-  left: 950px;
+  left: 1070px;
   background-color: #2e2e2e;
   overflow-x: hidden;
   transition: 0.5s;
   padding-top: 60px;
   border-radius: 10px ;
+  opacity: 1;
   
 }
 
@@ -51,12 +52,13 @@ body{
 .openbtn {
   font-size: 20px;
   cursor: pointer;
-  background-color:  rgb(53, 45, 46);
+  /* background-color:  rgb(53, 45, 46); */
   color: rgb(226, 64, 91);
   border: none;
   padding: 10px 15px;
-  position: relative;
-  top: 15%;
+  position: sticky;
+  top: 2%;
+  right: 20%;
   height: 45px;
 
 }

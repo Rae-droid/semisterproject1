@@ -1,21 +1,24 @@
 body{
-    background-color:  rgb(53, 45, 46);
+    background-color:  rgb(12, 11, 12);
     margin: 0;
 }
 
 .header{
     width: 100%;
-    height: 100px;
+    height: 80px;
     background-color: rgb(53, 45, 46);
-    /* position: relative; */
+    position: static;
     margin-top: 0;
     box-shadow: 1px 0.5px 1px 1px rgb(226, 64, 91) ;
     display: flex;
     justify-content: space-around; 
+   
 
 }
 .logo{
-     margin-top: 20px;   
+     margin-top: 20px; 
+     /* position: fixed;  */
+    /* margin-right: 400px; */
      
     
 }
@@ -33,6 +36,19 @@ body{
     color: rgb(226, 64, 91);
     font-size: 30px;
     margin-top: 20px;
+    /* position: fixed; */
+    /* right: 20%; */
+}
+.search-icon{
+    color: rgb(226, 64, 91);
+    font-size: 30px;
+    margin-top: 20px; 
+    /* position: fixed; */
+    /* left: 850px; */
+}
+#search{
+    /* position: fixed;
+    left: 40%; */
 }
 .icon-style:hover{
     color: rgb(172, 93, 106);
@@ -42,16 +58,16 @@ body{
    gap: 5px;
 }
 .signin-icon{
-    margin-right: 40px;
-    position: relative;
-    display: flex;
-    gap: 15px;
+    /* margin-right: 10px; */
+    /* position: relative; */
+    /* display: flex; */
+    /* gap: 15px; */
 }
-.bg-img{
+/* .bg-img{
     width: 100%;
     height: 100%;
-    /* background-size: cover;
-    background-position: center; */
+    background-size: cover;
+    background-position: center;
     position: absolute;
     top: 0;
     left: 0;
@@ -59,85 +75,140 @@ body{
     filter: blur(5px);
     opacity: 0.2;
     border-bottom: 2px solid rgb(226, 64, 91) ;
-}
+} */
 .first-img{
     width: 100%;
     height: 600px;
-    opacity: 0.4;
+
+    opacity: 1;
+    position: static;
+    /* overscroll-behavior: none; */
+    
+
   
 }
 .first-img img{
-    /* object-fit: contain; */
-    position: absolute;
+    
+    /* position: relative; */
 }
 .home-set1 p{
-    position: absolute;
-    top: 30%;
-    left: 5%;
+    position: relative;
+    bottom: 530px;
+    left: -28%;
     color:white;
-    font-size: 80px;
+    font-size: 70px;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     font-weight: bold;
 }
-.home-set1 small p{
+#plus{
+    background-color: white;
+    border: none;
+    height: 30px;
+    width: 100px;
+    color: black;
+
+}
+#watch{
+    background-color: yellow;
+    border: none;
+    height: 30px;
+    width: 150px;
+}
+#watch a{
+    text-decoration: none;
+    color: black;
+}
+.info-buttons{
+    display: flex;
+    gap: 20px;
+    position: absolute;
+    top: 75%;
+    left: 6%;
+    font-size: 20px;
+    color: white;
+}
+
+
+    
+
+small {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 38%;
+    left: 80px;
+    
+}
+.black_info{
+    /* border: 1px solid red; */
+    height: 200px;
+    width: 600px;
     position: absolute;
     top: 45%;
-    left: 5%;
-    color:white;
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: center;
+    left: 70px;
+}
+.black_info p{
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    line-height: 1.7rem;
+    font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
-    display: flex;
-    
-}
-.home-set1 small{
-    
 }
 
-
-.line{
-    /* width: 100%; */
-    height: 1px;
-    background-color: rgb(226, 64, 91);
-
+.trend{
+    color: white;
+    margin-left: 20px;
 }
-
-.light img{
-    height: 90px;
-    width: 100px;
-    object-fit: contain;
-    
-}
-.light{
-    display: flex;
-    padding: 30px;
-}
-.spot{
+.trend-one{
+    border: 1px solid rgb(226, 102, 123);
+    height: 400px;
     width: 300px;
-    height: 300px;
-    border: 1px solid rgb(226, 64, 91);
-    overflow: scroll;
-    scrollbar-width: thin;
-    scrollbar-color: rgb(226, 64, 91) rgb(53, 45, 46);
-    margin: 10px;
-    margin-left: 80px;
-    border: none;
-    
+    border-radius: 10px;
+    margin: 20px;
 }
-.menu{
-   text-align: center;
+.trend-one  img{
+border-radius: 10px;
+opacity: 0.6;
+}
+.trend-one  :hover{
+    opacity: 1;
+    transform: scale(1.01);
+}
+.trend-two{
+    /* border: 1px solid rgb(226, 102, 123); */
+    height: 400px;
+    width: 1000px;
    display: flex;
-   flex-direction: column;
-   justify-content: center;
-}
-.menu h5{
-    color: rgb(226, 64, 91);
-    font-family: cursive;
-    font-size: 15px;
     margin: 10px;
+    flex-wrap: wrap;
 }
+.trend-movies{
+    display: flex;
+}
+.trend-two-movie{
+    border: 1px solid rgb(226, 102, 123);
+    height: 190px;
+    width: 300px;
+    border-radius: 10px;
+    margin: 10px;
+    opacity: 0.6;
+    
+    /* display: flex; */
+}
+.trend-two-movie img{
+    border-radius: 10px;
+    height: 100%;
+    width: 100%;
+}
+.trend-two-movie:hover{
+    opacity: 1;
+    transform: scale(1.01);
+}
+
 
 
 
