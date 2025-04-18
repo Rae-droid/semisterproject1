@@ -263,7 +263,49 @@ span{
     font-size: 60px;
    text-align: center;
 }
+.picks img{
+    height: 300px;
+    width: 300px;
+    margin: 10px;
+}
+.flixgo-picks{
+    display: flex;
+    flex-wrap: wrap;
 
+}
+.picks{
+    display: flex;
+    flex-direction: column;
+
+}
+.picks strong{
+    color: rgb(226, 102, 123);
+    text-align: center;
+}
+.picks p{
+    color:  rgb(75, 75, 73);
+    text-align: center;
+}
+.genre-box img{
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+    opacity: 0.6;
+}
+.genre-box p{
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    position: relative;
+    bottom: 140px;
+    left: 70px;
+}
+.movie-genre{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
 
 
 
