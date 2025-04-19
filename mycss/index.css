@@ -263,26 +263,39 @@ span{
     font-size: 60px;
    text-align: center;
 }
-.picks img{
+.picks img, 
+.action img,
+.comedy img{
     height: 300px;
     width: 300px;
     margin: 10px;
 }
-.flixgo-picks{
+/* .picks , .action  :hover{
+  transform: translateY(5%);
+} */
+.flixgo-picks, 
+.action-movies, 
+.comedy-movies{
     display: flex;
     flex-wrap: wrap;
 
 }
-.picks{
+.picks, 
+.action, 
+.comedy{
     display: flex;
     flex-direction: column;
 
 }
-.picks strong{
+.picks strong, 
+.action  strong, 
+.comedy strong{
     color: rgb(226, 102, 123);
     text-align: center;
 }
-.picks p{
+.picks p, 
+.action p, 
+.comedy p{
     color:  rgb(75, 75, 73);
     text-align: center;
 }
