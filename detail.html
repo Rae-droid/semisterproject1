@@ -62,10 +62,25 @@
         </div>
     </section>
 </main>
+<div class="detail-buttons">
+    <button   class="btn-1"><a href="#">Watch Trailer| Free</a></button>
+    <button class="btn-2">Add to Watchlist</button>
+    <button onclick="openPopup()" class="btn-3"><i class="fa-solid fa-cart-shopping fa-shake"></i>  Purchase</button>
+    <button onclick="openPopup()" class="btn-4"><i class="fa-solid fa-download fa-bounce"></i>  Download</button>
+
+
+</div>
+
+
+<div class="overlay" id="overlay" onclick="closePopup()"></div>
+<div class="popup" id="popup">
+    <h2>Payment Options</h2>
+    <button ><a href="paypage.html">Pay with Card</a></button>
+    <button><a href="paypage.html">Pay with PayPal</a></button>
+    <button onclick="closePopup()">Cancel</button>
+</div>
    
-    <!-- <p style="text-align: center; color: rgb(112, 112, 112); font-family: Arial, sans-serif; font-size: 14px;">
-        &copy; 2025 MovieSite. All rights reserved.
-    </p> -->
+
     <script src="myjs/sidebar.js"></script>
 </body>
 </html>

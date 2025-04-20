@@ -101,21 +101,32 @@ body{
     text-align: center;
     font-weight: bold;
 }
-#plus{
+#plus, 
+.btn-2{
     background-color: white;
     border: none;
     height: 30px;
-    width: 100px;
+    width: 140px;
     color: black;
 
 }
-#watch{
+#watch, 
+.btn-1{
     background-color: yellow;
     border: none;
     height: 30px;
     width: 150px;
 }
-#watch a{
+.btn-3, 
+.btn-4{
+    background-color: rgb(226, 102, 123);
+    border: none;
+    height: 30px;
+    width: 150px;
+    color: white;
+}
+#watch a, 
+.btn-1 a{
     text-decoration: none;
     color: black;
 }
@@ -129,7 +140,10 @@ body{
     color: white;
 }
 
-
+.detail-buttons {
+    display: inline-block;
+    margin-left: 80px;
+}
     
 
 small {
@@ -195,7 +209,7 @@ opacity: 0.6;
     width: 300px;
     border-radius: 10px;
     margin: 10px;
-    opacity: 0.6;
+    opacity: 0.8;
     
     /* display: flex; */
 }
@@ -265,37 +279,58 @@ span{
 }
 .picks img, 
 .action img,
-.comedy img{
+.comedy img,
+.drama img,
+.fantasy img,
+.horror img{
     height: 300px;
     width: 300px;
     margin: 10px;
 }
-/* .picks , .action  :hover{
-  transform: translateY(5%);
-} */
+.picks :hover,
+.action :hover,
+.comedy :hover,
+.drama :hover,
+.fantasy :hover,
+.horor :hover{
+    transform: translateY(-1%);
+}
+
 .flixgo-picks, 
 .action-movies, 
-.comedy-movies{
+.comedy-movies,
+.drama-movies,
+.fantasy-movies,
+.horror-movies{
     display: flex;
     flex-wrap: wrap;
 
 }
 .picks, 
 .action, 
-.comedy{
+.comedy,
+.drama,
+.fantasy,
+.horror{
     display: flex;
     flex-direction: column;
 
 }
 .picks strong, 
 .action  strong, 
-.comedy strong{
+.comedy strong,
+.drama strong,
+.fantasy strong,
+.horror strong{
     color: rgb(226, 102, 123);
     text-align: center;
 }
 .picks p, 
 .action p, 
-.comedy p{
+.comedy p,
+.drama p,
+.fantasy p,
+.horror p{
     color:  rgb(75, 75, 73);
     text-align: center;
 }
