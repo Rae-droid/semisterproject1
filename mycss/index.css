@@ -43,13 +43,10 @@ body{
     color: rgb(226, 64, 91);
     font-size: 30px;
     margin-top: 20px; 
-    /* position: fixed; */
-    /* left: 850px; */
+
 }
-#search{
-    /* position: fixed;
-    left: 40%; */
-}
+
+
 .icon-style:hover{
     color: rgb(172, 93, 106);
 }
@@ -292,7 +289,7 @@ span{
 .comedy :hover,
 .drama :hover,
 .fantasy :hover,
-.horor :hover{
+.horror :hover{
     transform: translateY(-1%);
 }
 
@@ -304,6 +301,7 @@ span{
 .horror-movies{
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
 
 }
 .picks, 

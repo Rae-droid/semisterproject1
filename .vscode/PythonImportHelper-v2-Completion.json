@@ -1,0 +1,28 @@
+[
+    {
+        "label": "convert",
+        "importPath": "test.test_tomllib.burntsushi",
+        "description": "test.test_tomllib.burntsushi",
+        "isExtraImport": true,
+        "detail": "test.test_tomllib.burntsushi",
+        "documentation": {}
+    },
+    {
+        "label": "birth_year",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "birth_year = input('Birth year: ')\nprint(type(birth_year))\nage = 2025 - int(birth_year)\nprint(type(age))\nprint(age)\n# CHeCKING WEIGHT\n# weight_lbs = input('weight (lbs): ')\n# weight_kg = int(weight_lbs) * 0.45\n# print(weight_kg)\n# course = 'Python for Beginners'",
+        "detail": "app",
+        "documentation": {}
+    },
+    {
+        "label": "age",
+        "kind": 5,
+        "importPath": "app",
+        "description": "app",
+        "peekOfCode": "age = 2025 - int(birth_year)\nprint(type(age))\nprint(age)\n# CHeCKING WEIGHT\n# weight_lbs = input('weight (lbs): ')\n# weight_kg = int(weight_lbs) * 0.45\n# print(weight_kg)\n# course = 'Python for Beginners'\n# another = course[:]\n# print(another)",
+        "detail": "app",
+        "documentation": {}
+    }
+]
