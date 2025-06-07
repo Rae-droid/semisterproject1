@@ -21,7 +21,7 @@ body{
 }
 
 .sidebar a {
-  padding: 10px 15px;
+  padding: 2px 5px;
   text-decoration: none;
   font-size: 18px;
   color: rgb(226, 64, 91);
@@ -283,6 +283,35 @@ border-radius: 10px;
 
 .navbar a:hover {
   color: #e2405f;
+}
+
+/* Sidebar link styles */
+.sidebar-link {
+  color: #fff;
+  font-size: 1.08rem;
+  text-decoration: none;
+  padding: 4px 0;
+  border-radius: 6px;
+  transition: background 0.18s, color 0.18s, padding-left 0.18s;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.sidebar-link:hover {
+  background: #ffb30033;
+  color: #e2405f;
+  padding-left: 12px;
+}
+
+/* Make header fixed when sidebar is open */
+.static-header {
+  position: fixed !important;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  z-index: 13000;
+  background: rgba(24,24,24,0.98);
+  box-shadow: 0 2px 24px #ffb30022;
 }
 
 /* Dashboard Section */

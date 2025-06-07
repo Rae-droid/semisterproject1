@@ -1,0 +1,48 @@
+.loader-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: radial-gradient(ellipse at center, #181818 0%, #090909 100%);
+    z-index: 9999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.flixgo-loader {
+    width: 100px;
+    height: 100px;
+    animation: flixgo-spin-glow 1.4s infinite ease-in-out;
+    filter: drop-shadow(0 0 30px #eb055dcc) drop-shadow(0 0 0px #fff2);
+}
+
+@keyframes flixgo-spin-glow {
+    0% {
+        transform: scale(1.08) rotate(0deg);
+        filter: drop-shadow(0 0 10px #eb055dcc);
+        opacity: 1;
+    }
+    40% {
+        transform: scale(1.08) rotate(144deg);
+        filter: drop-shadow(0 0 40px #ffb300cc);
+        opacity: 0.92;
+    }
+    60% {
+        transform: scale(1.12) rotate(216deg);
+        filter: drop-shadow(0 0 60px #eb055dcc) ;
+        opacity: 0.96;
+    }
+    80% {
+        transform: scale(1.08) rotate(288deg);
+        filter: drop-shadow(0 0 40px #ffb300cc);
+        opacity: 0.92;
+    }
+    100% {
+        transform: scale(1) rotate(360deg);
+        filter: drop-shadow(0 0 10px #eb055dcc);
+        opacity: 1;
+    }
+}
